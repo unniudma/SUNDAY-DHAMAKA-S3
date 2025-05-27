@@ -20,6 +20,28 @@
             padding: 30px;
             backdrop-filter: brightness(0.6); /* darken background for readability */
         }
+.top-bar {
+            width: 100%;
+            padding: 15px;
+            background-color: #222;
+            display: flex;
+            justify-content: flex-start;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+        }
+        .top-bar a {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 16px;
+            border: 2px solid #ffd700;
+            border-radius: 6px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .top-bar a:hover {
+            background-color: #ffd700;
+            color: #111;
+        }
+
 
         h1 {
             margin-bottom: 40px;
@@ -66,6 +88,9 @@
     </style>
 </head>
 <body>
+<div class="top-bar">
+        <a href="index.html">Home</a>
+    </div>
 <div id="logo">
   <img src="LOGOFINAL.png" alt="BSXI Logo" width="150" height="150">
 </div>
