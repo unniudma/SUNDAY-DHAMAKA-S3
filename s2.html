@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Image Page</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #111;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+        .top-bar {
+            width: 100%;
+            padding: 15px;
+            background-color: #222;
+            display: flex;
+            justify-content: flex-start;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+        }
+        .top-bar a {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 16px;
+            border: 2px solid #ffd700;
+            border-radius: 6px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .top-bar a:hover {
+            background-color: #ffd700;
+            color: #111;
+        }
+        img {
+            max-width: 90%;
+            max-height: 90vh;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="top-bar">
+        <a href="season2.html">Home</a>
+    </div>
+    <img src="s2.jpg?auto=format&fit=crop&w=800&q=80" alt="Placeholder Image">
+</body>
+</html>
